@@ -1,0 +1,16 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "monorepo"
+  source: https://github.com/lowRISC/opentitan
+  path: hw/ip/racl_ctrl
+  commit: 9dcbb0555f6da8b8a4d9b8057bccbe89cfccc69c
+  extracted_at: "2026-04-01T05:15:04Z"
+import:
+  rtl:
+    - path: "rtl"
+      map_to: "rtl"
+  license:
+    - path: "Apache-2.0"
+license:
+  spdx: Apache-2.0
+  file: LICENSE
